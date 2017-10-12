@@ -7,24 +7,60 @@
 /* == main == */
 
 /* -- nav -- */
+.img-logo{
+   height: 120px;
+   width: 120px;
+   display: block;
+   background: url('../images/logo.svg') no-repeat;
+   background-size: contain;
+   color:transparent;
+}
 
+.navbar-transparent{
+   padding: 15px 0px;
+   background: rgba(68, 133, 237, 0.6);
+   border: none;
+}
 
+.navbar-brand{
+   padding: 0px;
+   padding: 0px 15px;
+}
 
+.navbar-inverse .navbar-nav>li>a {
+   color: white;
+}
 
+.navbar-inverse .navbar-nav>li>a:hover {
+   color: #7aa7ef;
+   background-color: white;
+}
 
+.navbar-collapse{
+   border-top: none;
+}
 
+.navbar-inverse .navbar-toggle {
+   background-color: transparent;
+   border-color: white;
+} 
 
+.navbar-inverse .navbar-toggle:hover {
+   background-color: #4375c6;
+   border-color: white;
+}
 
+.navbar-inverse .navbar-toggle:focus {
+   background-color: #4375c6;
+   border-color: white;
+}
 
+.navbar-inverse .navbar-toggle:not(:hover) {
+   background-color: transparent;
+   border-color: white;
+}
 
-
-
-
-
-
-
-
-
-
-
+#collapseitem >ul>li> .undisp {
+   background: transparent;
+}
 /* == Typography == */
