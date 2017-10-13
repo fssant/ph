@@ -6,14 +6,25 @@
 
 /* == main == */
 
+
+html, body, .cover{
+   height: 100%;
+}
+
+body{
+   border: 1px solid red;
+   background: url('../images/phlimpeza.png'),
+   linear-gradient(50deg, #fff, #4485ed);
+   font-family: Helvetica, Arial,sans-serif;
+   background-attachment: fixed;
+   overflow-x:hidden;
+}
+
 /* -- nav -- */
 .img-logo{
-   height: 120px;
-   width: 120px;
+
    display: block;
-   background: url('../images/logo.svg') no-repeat;
    background-size: contain;
-   color:transparent;
 }
 
 .navbar-transparent{
@@ -29,6 +40,7 @@
 
 .navbar-inverse .navbar-nav>li>a {
    color: white;
+   font-weight: 700;
 }
 
 .navbar-inverse .navbar-nav>li>a:hover {
@@ -63,4 +75,31 @@
 #collapseitem >ul>li> .undisp {
    background: transparent;
 }
+/* -- cover -- */
+/* -- section 1 --*/
+#section-1{
+   background: white;
+}
+
+.img-icon{
+   margin: 20px auto 20px auto;
+   border: 4px double #4485ed;
+}
 /* == Typography == */
+
+#section-1 h3{
+   text-align: center;
+   letter-spacing: -0.04em;
+   font-weight: 700;
+   color: #4485ed;
+}
+
+#section-1 p{
+   text-align: center;
+   color: #4485ed;
+   font-family: Helvetica, Arial,sans-serif;
+   font-size: 14px;
+   font-weight: 600;
+   line-height: 20px;
+   margin: 0 30px 40px;
+}
