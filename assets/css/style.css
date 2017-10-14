@@ -83,7 +83,9 @@ body{
 
 .img-icon{
    margin: 20px auto 20px auto;
-   border: 4px double #4485ed;
+   width: 100px;
+   height: 100px;
+   
 }
 /* -- section 2--*/
 #imgbox{
@@ -94,6 +96,53 @@ body{
    padding: 20px;
 }
 
+/* -- footer -- */
+footer{
+   background: #4485ed;
+   position: relative;
+   color: #fff;
+}
+
+#faicons{
+   padding: 40px;
+}
+
+#faicons span{
+   font-size: 30px;
+   padding: 10px;
+}
+
+#faicons span:hover{
+   font-size: 30px;
+   padding: 10px;
+}
+
+#faicons a:hover{
+   background: none;
+   color: #9bf0e1;
+}
+#faicons a{
+   font-size: 14px;
+   text-decoration:none; 
+   font-family: Helvetica, Arial,sans-serif;
+   color: #fff; 
+}
+#author a{
+   font-size: 10px;
+   text-decoration: none;
+   font-family: Helvetica,;Arial,sans-serif;
+   color: #d9e5f9; 
+}
+
+#author a:hover{
+  background: none;
+  color: #9bf0e1;
+}
+
+#author{
+   padding-top: 200px;
+   padding-left: 300px;
+}
 /* == Typography == */
 
 #section-1 h3{
