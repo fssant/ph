@@ -85,6 +85,15 @@ body{
    margin: 20px auto 20px auto;
    border: 4px double #4485ed;
 }
+/* -- section 2--*/
+#imgbox{
+   padding: 100px 20px 20px 0px;
+}
+
+#textbox{
+   padding: 20px;
+}
+
 /* == Typography == */
 
 #section-1 h3{
@@ -97,9 +106,23 @@ body{
 #section-1 p{
    text-align: center;
    color: #4485ed;
-   font-family: Helvetica, Arial,sans-serif;
    font-size: 14px;
    font-weight: 600;
    line-height: 20px;
-   margin: 0 30px 40px;
+   margin: 0px 30px 40px;
+}
+
+#section-2 h3{
+   
+   letter-spacing: -0.04em;
+   font-weight: 800;
+   color: #fff;
+}
+
+#section-2 p{
+   color: #fff;
+   font-size: 14px;
+   font-weight: 600;
+   line-height: 20px;
+   margin: 0px 30px 40px;
 }
