@@ -12,7 +12,6 @@ html, body, .cover{
 }
 
 body{
-   border: 1px solid red;
    background: url('../images/phlimpeza.png'),
    linear-gradient(50deg, #fff, #4485ed);
    font-family: Helvetica, Arial,sans-serif;
@@ -75,7 +74,28 @@ body{
 #collapseitem >ul>li> .undisp {
    background: transparent;
 }
-/* -- cover -- */
+/* -- cover -- */  
+.carousel-inner,.carousel,.item,.container,.fill {
+  height:100%;
+  width:100%;
+  background-position:center center;
+}
+
+.carousel-control.left, .carousel-control.right {
+    background-image: none
+}
+
+#img1{
+   background-image:url('../images/teste.jpg');
+}
+
+#img2{
+   background-image:url('../images/teste1.jpg');
+}
+#img3{
+   background-image:url('../images/teste2.jpg');
+}
+
 /* -- section 1 --*/
 #section-1{
    background: white;
