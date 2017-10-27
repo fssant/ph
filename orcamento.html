@@ -64,25 +64,26 @@
          <h2 class="page-header">Orçamento</h2>
          <div class="container">
             <div class="row">
-               <div class="form-group">
-                  <div class="col-sm-3 col-md-3"></div>
-
-                  <div class="col-sm-3 col-md-3">
-                     <h4>
-                        <span class="label label-primary">Data da ultima limpeza</span>
-                     </h4>
-                     <input type="text" name="lastclean" id="lastclean" class="form-control" readonly required>
-                  </div>
-
-                  <div class="col-sm-3 col-md-3">                   
-                     <h4>
-                        <span class="label label-primary">Data das instalações</span>
-                     </h4>
-                     <input  name="agepool" id="agepool" class="form-control" type="text" required>
-                  </div>
-                  <div class="col-sm-3 col-md-3"></div>
-               </div>
+               <div class="col-md-4 col-sm-4 col-xs-2"></div>
+               <div class="form-group col-md-4 col-sm-4 col-xs-8">
+                  <h4>
+                     <span class="label label-primary">Data da ultima limpeza</span>
+                  </h4>
+                  <input type="text" name="lastclean" id="lastclean" class="form-control" readonly required>
+               </div> 
+               <div class="col-md-4 col-sm-4 col-xs-2"></div>   
             </div>
+            
+            <div class="row">
+               <div class="col-md-4 col-sm-4 col-xs-2"></div>                   
+               <div class="form-group col-md-4 col-sm-4 col-xs-8">
+                  <h4>
+                     <span class="label label-primary">Data das instalações</span>
+                  </h4>
+                  <input  name="agepool" id="agepool" class="form-control" type="text" required>
+               </div>
+               <div class="col-md-4 col-sm-4 col-xs-2"></div>
+            </div> 
          </div>
       </section><!-- /section 1-->
       <!-- section 2 -->
@@ -123,7 +124,7 @@
                <h3>Frequência de visitas</h3>
                <div class="form-group">
                   <div class="col-md-4"></div>
-                  <div class="col-md-4">
+                  <div class="col-md-4" style="border: 1px solid red;">
                      
                      <div class="input-group center">
                         <div class="btn-group radio-group">
@@ -132,17 +133,22 @@
                         </div>
                      </div>
                      <br>
-                     <div class="form-group has-success has-feedback">
-                        <label class="control-label" for="inputGroupSuccess1"> Valor </label>
-                        <div class="input-group">
-                           <span class="input-group-addon">R$</span>
-                           <input id="valor" type="text" class="form-control" id="inputGroupSuccess1" aria-describedby="inputGroupSuccess1Status" readonly>
-                        </div>
-                     </div>
-
                   </div>
                   <div class="col-md-4"></div>
                </div>
+            </div>
+            <div class="row">
+               <div class="col-md-4"></div>
+               <div class="col-md-4">
+                  <div class="form-group  has-feedback">
+                     <label class="control-label" for=""> Valor </label>
+                     <div class="input-group">
+                        <span class="input-group-addon">R$</span>
+                        <input id="valor" type="text" class="form-control" id="" aria-describedby="inputGroupSuccess1Status" readonly>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-md-4"></div>    
             </div>
          </div>
       </section><!-- /section -->

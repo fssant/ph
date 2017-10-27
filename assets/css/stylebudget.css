@@ -110,6 +110,9 @@ input[type="text"]{
    margin: 20px 0 20px 0;
 }
 /* -- section 2--*/
+#section-2{
+  background: white;
+}
 #imgbox{
    padding: 100px 20px 20px 0px;
 }
@@ -119,7 +122,7 @@ input[type="text"]{
 }
 
 .border{
-   border: 3px solid #fff;
+   border: 3px solid #4485ed;
 }
 
 #section-2 button{
@@ -140,9 +143,11 @@ input[type="text"]{
 /* -- section 3 --*/
 
 /* section bg*/
+
 #section-3{
   background: white;
 }
+
 /* hide radio dot*/
 .radio-group label {
   overflow: hidden;
