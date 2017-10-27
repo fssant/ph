@@ -92,7 +92,7 @@
                <div class="form-group">
                   <h3> Tamanho da piscina</h3>
                   <div class="col-sm-4"></div>
-                  <div class="col-sm-2 col-xs-6" style="border: 1px solid red">
+                  <div class="col-sm-2 col-xs-6">
                      <div class="cc-selector margin">                 
                         <h4>
                            <span class="label label-primary">15 à 50 mil litros</span>
@@ -101,12 +101,12 @@
                         <label class="drinkcard-cc pool15 border img-rounded" for="15"></label>
                      </div>
                   </div>
-                  <div class="col-sm-2 col-xs-6" style="border: 1px solid red">
+                  <div class="col-sm-2 col-xs-6">
                      <div class="cc-selector margin">
                         <h4>
                            <span class="label label-primary">51 à 80 mil litros</span>
                         </h4>
-                        <input id="80" type="radio" name="pool" value="1" />
+                        <input id="80" type="radio" name="pool" value="2" />
                         <label class="drinkcard-cc pool80 img-rounded border" for="80"></label>
                      </div>
                   </div>
@@ -123,17 +123,21 @@
                <h3>Frequência de visitas</h3>
                <div class="form-group">
                   <div class="col-md-4"></div>
-                  <div class="col-md-4" style="border: 2px dotted yellow">
+                  <div class="col-md-4">
                      
-                     <div class="input-group center" style="border: 1px solid red">
+                     <div class="input-group center">
                         <div class="btn-group radio-group">
-                           <label class="btn btn-primary not-active">4 visitas mensais <input type="radio" value="male" name="gender"></label>
-                           <label class="btn btn-primary not-active">8 visitas mensais <input type="radio" value="female" name="gender"></label>
+                           <label class="btn btn-primary not-active">4 visitas mensais <input type="radio" value="3" name="visit"></label>
+                           <label class="btn btn-primary not-active">8 visitas mensais <input type="radio" value="4" name="visit"></label>
                         </div>
                      </div>
-
-                     <div class="input-group center">
-                        
+                     <br>
+                     <div class="form-group has-success has-feedback">
+                        <label class="control-label" for="inputGroupSuccess1"> Valor </label>
+                        <div class="input-group">
+                           <span class="input-group-addon">R$</span>
+                           <input id="valor" type="text" class="form-control" id="inputGroupSuccess1" aria-describedby="inputGroupSuccess1Status" readonly>
+                        </div>
                      </div>
 
                   </div>
