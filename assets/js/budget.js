@@ -37,6 +37,7 @@ $( "input[type=radio][name=pool], input[type=radio][name=visit]" ).change(functi
    }else{
       $('#valor').val('');
    }
-
 });
+
+
 
