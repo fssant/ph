@@ -24,7 +24,7 @@ $(function() {
 $( "input[type=radio][name=pool], input[type=radio][name=visit]" ).change(function() {
    // Input radio-group visual controls
    var item1 = $("input[type=radio][name=pool]:checked" ).val();
-   var item2 = $( "input[type=radio][name=visit]:checked" ).val();
+   var item2 = $("input[type=radio][name=visit]:checked" ).val();
 
    if( item1 == 1 && item2 == 3){
       $('#valor').val('200,00');
@@ -39,5 +39,28 @@ $( "input[type=radio][name=pool], input[type=radio][name=visit]" ).change(functi
    }
 });
 
+
+
+$(function(){
+   $('input[type=radio][name=pool], input[type=radio][name=visit] ').on('change', function(){
+      var radio1 = $('input[name=pool]:checked').val();
+      var radio2 = $('input[name=visit]:checked').val(); 
+      if(((radio1 == "1") || (radio1 == "2")) && ((radio2 == "3" ) || (radio2 == "4"))){
+         $('#contratar').show("slow");
+      }
+   });
+})
+$(function(){
+   $("#contratar").click(function(){
+      $("#cadastro").toggle("slow");
+   });
+});
+
+
+
+
+   
+   
+  
 
 

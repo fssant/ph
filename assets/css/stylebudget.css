@@ -181,6 +181,8 @@ input[type="text"]{
   margin: 0 auto;
 }
 
+*[hidden] { display: none; }
+
 /* ---------------*/
 .cc-selector label{
   display: block;
